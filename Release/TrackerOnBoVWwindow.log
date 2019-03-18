@@ -1,0 +1,31 @@
+﻿生成启动时间为 2018/10/24 15:36:00。
+     1>项目“E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\TrackerOnBoVWwindow.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\编程软件\VS2012\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\qt5.3.1\5.3\msvc2012_opengl\include /I.\GeneratedFiles\Release /ID:\qt5.3.1\5.3\msvc2012_opengl\include\QtCore /ID:\qt5.3.1\5.3\msvc2012_opengl\include\QtGui /ID:\qt5.3.1\5.3\msvc2012_opengl\include\QtWidgets /ID:\qt5.3.1\5.3\msvc2012_opengl\include\QtMultimedia /nologo /W1 /WX- /O2 /Ot /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\TrackerOnBoVWwindow.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /FR"Release\\" /Gd /TP /analyze- /errorReport:prompt trackeronbovwwindow.cpp
+         trackeronbovwwindow.cpp
+     1>e:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\trackeronbovwwindow\trackeronbovwwindow.cpp(453): warning C4715: “TrackerOnBoVWwindow::setObjPosition”: 不是所有的控件路径都返回值
+       Link:
+         D:\编程软件\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\\TrackerOnBoVWwindow.exe" /NOLOGO /LIBPATH:D:\qt5.3.1\5.3\msvc2012_opengl\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5Multimedia.lib opencv_legacy2410.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_nonfree2410.lib opencv_objdetect2410.lib opencv_photo2410.lib opencv_stitching2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_videostab2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TrackerOnBoVWwindow.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\TrackerOnBoVWwindow.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\TrackerOnBoVWwindow.lib" /MACHINE:X86 /SAFESEH Release\temp.res
+         Release\qrc_trackeronbovwwindow.obj
+         Release\moc_trackeronbovwwindow.obj
+         Release\moc_widgetpainter.obj
+         Release\main.obj
+         Release\TrainBoVWofFeature.obj
+         Release\cvMatQImageTrans.obj
+         Release\BoVWFeatureTracker.obj
+         Release\TrackerOnBoVW.obj
+         Release\leastSquaresAndNewton.obj
+         Release\poseEstimateKickOutpoint.obj
+         Release\stdafx.obj
+         Release\trackeronbovwwindow.obj
+         Release\widgetpainter.obj
+         TrackerOnBoVWwindow.vcxproj -> E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\TrackerOnBoVWwindow.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\mt.exe /nologo /verbose /out:"E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\TrackerOnBoVWwindow.exe.manifest" /manifest Release\TrackerOnBoVWwindow.exe.intermediate.manifest
+       BscMake:
+         D:\编程软件\VS2012\VC\bin\bscmake.exe /nologo /o"E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\Win32\Release\TrackerOnBoVWwindow.bsc" /n Release\qrc_trackeronbovwwindow.sbr Release\moc_trackeronbovwwindow.sbr Release\moc_widgetpainter.sbr Release\main.sbr Release\TrainBoVWofFeature.sbr Release\cvMatQImageTrans.sbr Release\BoVWFeatureTracker.sbr Release\TrackerOnBoVW.sbr Release\leastSquaresAndNewton.sbr Release\poseEstimateKickOutpoint.sbr Release\stdafx.sbr Release\trackeronbovwwindow.sbr Release\widgetpainter.sbr
+     1>已完成生成项目“E:\物体检测与识别\自编程序\基于特征跟踪的目标跟踪算法（带界面）\TrackerOnBoVWwindow\TrackerOnBoVWwindow.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.29
